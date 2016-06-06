@@ -1,7 +1,0 @@
-digraph {
-    graph [fontname="Helvetica"]
-    node  [fontname="Helvetica"]
-    edge  [fontname="Helvetica"]
-
-    root [shape=box, label="N"]
-}
