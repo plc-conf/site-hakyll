@@ -102,7 +102,7 @@ feedCtx = mconcat
 config :: Configuration
 config = defaultConfiguration
     { deployCommand = "rsync --checksum -ave 'ssh' \
-                      \_site/* ulysses@staff.mmcs.sfedu.ru:/home/ulysses/public_html/_site"
+                      \_site/* plc@test.edu.mmcs.sfedu.ru:/http/plc/data/"
     }
 
 
