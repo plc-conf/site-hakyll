@@ -6,14 +6,10 @@ module Main (main) where
 
 
 --------------------------------------------------------------------------------
-import           Data.List       (sort)
 import           Data.Monoid     ((<>))
 import           Prelude         hiding (id)
-import           System.FilePath (replaceExtension, takeDirectory)
-import           System.Process  (system)
-import qualified Text.Pandoc     as Pandoc
-
-
+import           Filesystem.Path (basename)
+import           Filesystem.Path.CurrentOS (encodeString, decodeString)
 --------------------------------------------------------------------------------
 import           Hakyll
 
@@ -40,16 +36,24 @@ main = hakyllWith config $ do
     match (fromList pages) $ do
         route   $ setExtension ".html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/content.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate 
+                    "templates/content.html" 
+                    defaultContext
+            >>= loadAndApplyTemplate 
+                    "templates/default.html"
+                    (field "id" itemBasename <> defaultContext)
             >>= relativizeUrls
 
     -- Render the 404 page, we don't relativize URL's here.
     match "404.html" $ do
         route idRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/content.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate 
+                    "templates/content.html" 
+                    defaultContext
+            >>= loadAndApplyTemplate 
+                    "templates/default.html" 
+                    defaultContext
 
     -- Render RSS feed
     create ["rss.xml"] $ do
@@ -86,9 +90,9 @@ main = hakyllWith config $ do
         , "topics.md"
         ]
 
-    writeXeTex =
-        Pandoc.writeLaTeX Pandoc.def {Pandoc.writerTeXLigatures = False}
-
+itemBasename :: Item a -> Compiler String
+itemBasename = return . encodeString 
+             . basename . decodeString. toFilePath . itemIdentifier
 
 --------------------------------------------------------------------------------
 feedCtx :: Context String
