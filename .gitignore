@@ -2,3 +2,6 @@ _cache
 _site
 dist
 .htaccess
+
+.cabal*
+*sandbox*
