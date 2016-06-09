@@ -34,7 +34,8 @@ main = hakyllWith config $ do
 
     -- Render some static pages
     match (fromList pages) $ do
-        route   $ setExtension ".html"
+        route   $ setExtension ".html" `composeRoutes` (gsubRoute "contents/" (const "")) 
+                    
         compile $ pandocCompiler
             >>= loadAndApplyTemplate 
                     "templates/content.html" 
@@ -84,10 +85,10 @@ main = hakyllWith config $ do
 -}
    where
     pages =
-        [ "contact.md"
-        , "index.md"
-        , "organizers.md"
-        , "topics.md"
+        [ "contents/contact.md"
+        , "contents/index.md"
+        , "contents/organizers.md"
+        , "contents/topics.md"
         ]
 
 itemBasename :: Item a -> Compiler String
