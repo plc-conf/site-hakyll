@@ -20,7 +20,7 @@ main :: IO ()
 main = hakyllWith config $ do
     -- Static files
     match ("images/*.jpg" .||. "images/*.png" .||. "images/*.gif" .||.
-            "favicon.ico" .||. "files/**") $ do
+            "favicon.ico" .||. "files/**" .||. ".a") $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -33,9 +33,9 @@ main = hakyllWith config $ do
     match "templates/*" $ compile $ templateCompiler
 
     -- Render some static pages
-    match (fromList pages) $ do
-        route   $ setExtension ".html" `composeRoutes` (gsubRoute "contents/" (const "")) 
-                    
+    match "contents/*.md" $ do
+        route   $ setExtension ".html" 
+                    `composeRoutes` (gsubRoute "contents/" (const ""))
         compile $ pandocCompiler
             >>= loadAndApplyTemplate 
                     "templates/content.html" 
@@ -46,8 +46,8 @@ main = hakyllWith config $ do
             >>= relativizeUrls
 
     -- Render the 404 page, we don't relativize URL's here.
-    match "404.html" $ do
-        route idRoute
+    match "contents/404.html" $ do
+        route $ gsubRoute "contents/" (const "")
         compile $ pandocCompiler
             >>= loadAndApplyTemplate 
                     "templates/content.html" 
@@ -56,13 +56,14 @@ main = hakyllWith config $ do
                     "templates/default.html" 
                     defaultContext
 
-    -- Render RSS feed
+    {-- Render RSS feed
     create ["rss.xml"] $ do
         route idRoute
         compile $ do
             loadAllSnapshots "posts/*" "content"
                 >>= fmap (take 10) . recentFirst
                 >>= renderRss (feedConfiguration "All posts") feedCtx
+    -}
 
     -- CV as HTML
 {-
@@ -83,13 +84,6 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/cv.tex" defaultContext
             >>= xelatex
 -}
-   where
-    pages =
-        [ "contents/contact.md"
-        , "contents/index.md"
-        , "contents/organizers.md"
-        , "contents/topics.md"
-        ]
 
 itemBasename :: Item a -> Compiler String
 itemBasename = return . encodeString 
