@@ -1,6 +1,12 @@
 h1, h2, h3 {
     margin: 0px 0px 18px 0px;
     padding: 24px 0px 0px 0px;
+    font-family: PT Sans Caption, sans-serif;
+}
+
+h1#plc {
+    font-family: Source Serif Pro, serif;
+    font-weight: bold;
 }
 
 p, ul {
@@ -23,7 +29,7 @@ div#footer {
 html {
     background-color: #fff;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: PT Sans, sans-serif;
     line-height: 24px;
 }
 
