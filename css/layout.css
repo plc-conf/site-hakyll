@@ -15,6 +15,15 @@ div.avatar-wrap {
     text-align: center;
 }
 
+#mainTable {
+	height: 100%;
+	width: 100%;
+}
+
+#backgroundSpace {
+	width: 0;
+}
+
 div#divHead {
 	clear: both;
 	margin: 0px;
@@ -29,10 +38,21 @@ div#divHead img {
 	display: block;
 }
 
+.sidebar {
+	background: #f3f3f3 url("../images/header.png") repeat-x left bottom;
+    padding-bottom: 5px;
+    text-align: center;
+    float: left;
+    display: block;
+    clear: both;
+}
+
 div#navigation {
     background: #f3f3f3 url("../images/header.png") repeat-x left bottom;
     padding-bottom: 18px;
     text-align: center;
+    float: left;
+    display: block;
 }
 
 div#navigation a {
@@ -53,7 +73,15 @@ div#lightbox {
 div#logos {
 	padding-top: 10px;
 	align: center;
+	float: left;
+    display: block;
 } 
+
+#plcLogo {
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 .logoImg {
 	display: block;
@@ -61,6 +89,17 @@ div#logos {
 	margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+}
+
+
+@media all and (max-width:400px){
+	#mainContent{
+	  display:flex;
+	  flex-flow: column;
+	}
+	#navigation{order:1;}
+	#logos{order:3;}
+	#content{order:2;}
 }
 
 @media all and (min-width: 822px) {
@@ -73,12 +112,22 @@ div#logos {
         margin: 18px;
         float: right;
     }
+    
+    #backgroundSpace {
+		width: 100%;
+	}
 
 	div#divHead {
 		top: 0;
 		width: 880px;
 	}
 
+	.sidebar {
+		background: none;
+		margin: 5px 5px 5px 13px;
+        width: 150px;
+	}
+	
     div#navigation {
         background: none;
         float: left;
@@ -86,6 +135,8 @@ div#logos {
         margin: 5px 5px 5px 13px;
         width: 150px;
     }
+    
+    
 
     div#navigation h1, div#navigation a {
         display: block;
