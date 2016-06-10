@@ -23,7 +23,13 @@ div#navigation {
 
 div#navigation a {
     border: none;
-    margin: 0px 6px 0px 6px;
+    padding: 2px 4px 2px 4px;
+    width: 100%;
+}
+
+div#navigation a:hover {
+    background-color: #58A2D6;
+    color: white;
 }
 
 div#content {
@@ -39,6 +45,7 @@ div#lightbox {
 @media all and (min-width: 822px) {
     html {
         background: #fff url("../images/sidebar.png") repeat-y left top;
+        background-size: 180px;
     }
 
     div.avatar-wrap {
@@ -50,10 +57,10 @@ div#lightbox {
         background: none;
         float: left;
         left: 0px;
-        margin: 0px 0px 0px 18px;
+        margin: 5px 5px 5px 13px;
         position: fixed;
         top: 0px;
-        width: 120px;
+        width: 150px;
     }
 
     div#navigation h1, div#navigation a {
@@ -63,7 +70,8 @@ div#lightbox {
 
     div#navigation a {
         color: #333;
-        margin: 6px 0px 6px 0px;
+        margin: 0px 0px 0px 0px;
+        border-bottom: 1px solid #214161;
     }
 
     div#content {
