@@ -65,6 +65,12 @@ div#footer {
 	margin: 0px;
 	border-collapse:collapse;
 	height: 100%;
+	width: 100%;
+	vertical-align: top;
+}
+
+#mainTable tr {
+	vertical-align: top;
 }
 
 #backgroundSpace {
@@ -92,8 +98,8 @@ a {
 }
 
 a:hover {
-    color: #326CAB;
-    border-bottom-color: #326CAB;
+    color: #0288CD;
+    border-bottom-color: #0288CD;
 }
 
 div#navigation a {

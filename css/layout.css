@@ -20,6 +20,7 @@ div#divHead {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
+	display: block;
 }
 
 div#divHead img {
@@ -61,6 +62,7 @@ div#lightbox {
     }
 
 	div#divHead {
+		top: 0;
 		width: 880px;
 	}
 
@@ -69,7 +71,6 @@ div#lightbox {
         float: left;
         left: 0px;
         margin: 5px 5px 5px 13px;
-
         width: 150px;
     }
 
