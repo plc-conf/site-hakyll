@@ -15,6 +15,16 @@ div.avatar-wrap {
     text-align: center;
 }
 
+div#divHeadPic {
+	clear: both;
+	background-color: #326CAB;
+	margin: 0px;
+	margin-top: -15px;
+	padding: 0px;
+	padding-top: 50px;
+	width: 100%;
+}
+
 div#navigation {
     background: #f3f3f3 url("../images/header.png") repeat-x left bottom;
     padding-bottom: 18px;
@@ -53,13 +63,16 @@ div#lightbox {
         float: right;
     }
 
+	div#divHeadPic {
+		width: 880px;
+	}
+
     div#navigation {
         background: none;
         float: left;
         left: 0px;
         margin: 5px 5px 5px 13px;
-        position: fixed;
-        top: 0px;
+
         width: 150px;
     }
 
