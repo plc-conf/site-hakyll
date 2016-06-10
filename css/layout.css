@@ -50,6 +50,19 @@ div#lightbox {
     height: 100%;
 }
 
+div#logos {
+	padding-top: 10px;
+	align: center;
+} 
+
+.logoImg {
+	display: block;
+	width: 110px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
 @media all and (min-width: 822px) {
     html {
         background: #fff url("../images/sidebar.png") repeat-y left top;

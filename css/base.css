@@ -4,12 +4,28 @@ h1, h2, h3, h4 {
     font-family: PT Sans Caption, sans-serif;
 }
 
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 h1 {
 	margin-bottom: 12px;
 }
 
-h2, h3 {
-	font-weight: bold;
+h4, h5 {
+	font-weight: normal;
 }
 
 h3, h4 {
@@ -19,27 +35,28 @@ h3, h4 {
 div#divHead {
 	background: #052522;
 	color: white;
+	vertical-align: middle;
+}
+
+div#divHead h1 {
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	padding: 0px;
+	padding-top: 8px;
 }
 
 div#divHead h3 {
-	margin: 4px;
 	padding: 0px;
-	font-weight: bold;
+	padding-bottom: 3px;
+	font-weight: normal;
 	font-size: 20px;
+	text-align: center;
 }
 
 h1#plc {
     font-family: Source Serif Pro, serif;
     font-weight: bold;
-}
-
-h1#plcTitle {
-    font-weight: bold;
-	text-align: center;
-	color: white;
-	font-size: 29px;
-	padding: 5px;
-	margin: 5px;
 }
 
 p, ul {
@@ -89,6 +106,10 @@ html {
 
 body {
     color: #333;
+}
+
+.logoImg {
+	display: block;
 }
 
 a {
@@ -145,22 +166,6 @@ pre code {
 code {
     font-size: 14px;
     color: #408090;
-}
-
-h1, h2, h3 {
-    font-weight: normal;
-}
-
-h1 {
-    font-size: 26px;
-}
-
-h2 {
-    font-size: 22px;
-}
-
-h3 {
-    font-size: 18px;
 }
 
 ul {
