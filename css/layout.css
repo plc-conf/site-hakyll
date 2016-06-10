@@ -15,14 +15,17 @@ div.avatar-wrap {
     text-align: center;
 }
 
-div#divHeadPic {
+div#divHead {
 	clear: both;
-	background-color: #326CAB;
 	margin: 0px;
-	margin-top: -15px;
 	padding: 0px;
-	padding-top: 50px;
 	width: 100%;
+}
+
+div#divHead img {
+	margin: 0px;
+	padding: 0px;
+	display: block;
 }
 
 div#navigation {
@@ -32,14 +35,8 @@ div#navigation {
 }
 
 div#navigation a {
-    border: none;
     padding: 2px 4px 2px 4px;
     width: 100%;
-}
-
-div#navigation a:hover {
-    background-color: #58A2D6;
-    color: white;
 }
 
 div#content {
@@ -63,7 +60,7 @@ div#lightbox {
         float: right;
     }
 
-	div#divHeadPic {
+	div#divHead {
 		width: 880px;
 	}
 

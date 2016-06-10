@@ -4,9 +4,30 @@ h1, h2, h3 {
     font-family: PT Sans Caption, sans-serif;
 }
 
+div#divHead {
+	background: #052522;
+	color: white;
+}
+
+div#divHead h3 {
+	margin: 4px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 h1#plc {
     font-family: Source Serif Pro, serif;
     font-weight: bold;
+}
+
+h1#plcTitle {
+    font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 29px;
+	padding: 5px;
+	margin: 5px;
 }
 
 p, ul {
@@ -24,6 +45,20 @@ ul {
 
 div#footer {
     margin: 60px 0px 36px 0px;
+}
+
+#mainTable {
+	border-spacing: 0px;
+	padding: 0px; 
+	margin: 0px;
+	border-collapse:collapse;
+}
+
+#backgroundSpace {
+	background-color: white;
+	background: linear-gradient(to right, #C3C3C3, #fff);
+	width: 100%;
+	border-left: solid 1px #C3C3C3;
 }
 
 html {
@@ -46,6 +81,15 @@ a {
 a:hover {
     color: #326CAB;
     border-bottom-color: #326CAB;
+}
+
+div#navigation a {
+    border: none;
+}
+
+div#navigation a:hover {
+    background-color: #0288CD;
+    color: white;
 }
 
 div.figure a{
