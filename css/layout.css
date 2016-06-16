@@ -20,10 +20,6 @@ div.avatar-wrap {
 	width: 100%;
 }
 
-#mainContent {
-	height: 100%;
-}
-
 #backgroundSpace {
 	width: 0;
 }
@@ -67,7 +63,7 @@ div#logos {
 	float: left;
     display: block;
     height: 100%;
-} 
+}
 
 div#content {
 	padding: 5px;
@@ -103,33 +99,33 @@ div#lightbox {
 
 
 @media all and (max-width:440px){
-	
+
 	.sidebar {
 		background: #f3f3f3 url("../images/header.png") repeat-y left top;
 		width: calc(100%-10px);
 		clear: both;
 		padding: 5px;
 	}
-	
+
 	#mainContent {
 	  display: flex;
 	  flex-flow: column;
 	}
-	
+
 	#navigation {
 		order: 1;
 	}
 	#logos {
 		order: 3;
 	}
-	div#content{ 
+	div#content{
 		order: 2;
 		padding: 5px;
 		width: calc(100% - 10px);
 		margin: 0px;
 		clear: both;
 	}
-	
+
 	#plc {
 		display: block;
 	}
@@ -144,14 +140,14 @@ div#lightbox {
         background: #fff url("../images/sidebar.png") repeat-y left top;
         background-size: 155px;
     }
-    
+
     .sidebar {
 		background: none;
 		padding: 5px 5px 5px 13px;
 		width: 135px;
 	}
-	
-	div#content { 
+
+	div#content {
 		margin: 0px;
 		margin-left: calc(135px + 20px);
     }
@@ -168,7 +164,7 @@ div#lightbox {
         margin: 18px;
         float: right;
     }
-    
+
     #backgroundSpace {
 		width: 100%;
 	}
@@ -176,18 +172,18 @@ div#lightbox {
 	div#divHead {
 		width: 880px;
 	}
-	
+
 	.sidebar {
-		width: 150px; 
+		width: 150px;
 		background: none;
 	}
-	
+
     div#navigation {
         background: none;
         float: left;
         left: 0px;
     }
-    
+
     div#navigation h1#plc {
 		display: none;
 	}
