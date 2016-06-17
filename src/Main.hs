@@ -19,7 +19,7 @@ import           Hakyll
 main :: IO ()
 main = hakyllWith config $ do
     -- Static files
-    match ("images/*.jpg" .||. "images/*.png" .||. "images/*.gif" .||.
+    match ("images/*.jpg" .||. "images/*.png" .||. "images/*.gif" .||. "images/*.svg" .||.
             "favicon.ico" .||. "files/**" .||. ".a") $ do
         route   idRoute
         compile copyFileCompiler
