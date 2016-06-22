@@ -78,7 +78,7 @@ div#footer {
 
 #mainTable {
 	border-spacing: 0px;
-	padding: 0px; 
+	padding: 0px;
 	margin: 0px;
 	border-collapse:collapse;
 	vertical-align: top;
@@ -88,7 +88,7 @@ div#footer {
 	vertical-align: top;
 }
 
-#backgroundSpace {
+#backgroundSpace1 #backgroundSpace2  {
 	background-color: white;
 	background: linear-gradient(to right, #C3C3C3, #fff);
 	border-left: solid 1px #C3C3C3;

@@ -165,8 +165,12 @@ div#lightbox {
         float: right;
     }
 
-    #backgroundSpace {
-		width: 100%;
+	#backgroundSpace1 {
+		width: 50%;
+	}
+
+	#backgroundSpace2 {
+		width: 50%;
 	}
 
 	div#divHead {
