@@ -39,7 +39,6 @@ div#divHead img {
 }
 
 .sidebar {
-	background: #f3f3f3 url("../images/header.png") repeat-y left top;
     padding-bottom: 0px;
     text-align: center;
     float: left;
@@ -142,7 +141,6 @@ div#lightbox {
     }
 
     .sidebar {
-		background: none;
 		padding: 5px 5px 5px 13px;
 		width: 135px;
 	}
@@ -156,7 +154,6 @@ div#lightbox {
 
 @media all and (min-width: 880px) {
     html {
-        background: #fff url("../images/sidebar.png") repeat-y left top;
         background-size: 180px;
     }
 
@@ -179,11 +176,9 @@ div#lightbox {
 
 	.sidebar {
 		width: 150px;
-		background: none;
 	}
 
     div#navigation {
-        background: none;
         float: left;
         left: 0px;
     }

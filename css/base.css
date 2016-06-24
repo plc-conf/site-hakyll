@@ -88,8 +88,12 @@ div#footer {
 	vertical-align: top;
 }
 
-#backgroundSpace1 #backgroundSpace2  {
-	background-color: white;
+#backgroundSpace1  {
+	background: linear-gradient(to left, #C3C3C3, #fff);
+	border-right: solid 1px #C3C3C3;
+}
+
+#backgroundSpace2  {
 	background: linear-gradient(to right, #C3C3C3, #fff);
 	border-left: solid 1px #C3C3C3;
 }
