@@ -38,10 +38,9 @@
     </head>
     
     <body>
-	<table id="mainTable" cellpadding="0" ><tr>
-        <td id="backgroundSpace1"></td>
+	<div id="container">
 		
-		<td>
+		<div id="central">
 			<div id="divHead">
 				<table width="100%">
 					<tr>
@@ -53,24 +52,41 @@
 			</div>
 			
 			<div id="mainContent">
-				<div id="navigation" class="sidebar">
-					<h1 id="plc">PLC-2017</h1>
-					<a id="index" href="index.html">Конференция</a>
-					<a id="fuksman" href="fuksman.html">А.Л. Фуксман</a>
-					<a id="topics" href="topics.html">Тематика</a>
-					<a id="organizers" href="organizers.html">Организаторы</a>
-					<a id="contact" href="contact.html">Контакты</a>
-				</div>
-				
-				<div id="logos" class="sidebar">
-					<img class="logoImg" src="images/sfedu-logo-ru.svg"/>
+			
+			    <div id="leftSidear">
+				    <div id="navigation" class="sidebar" style="">
+					    <h1 id="plc">PLC-2017</h1>
+					    <a id="index" href="index.html">Конференция</a>
+					    <a id="fuksman" href="fuksman.html">А.Л. Фуксман</a>
+					    <a id="topics" href="topics.html">Тематика</a>
+					    <a id="organizers" href="organizers.html">Организаторы</a>
+					    <a id="contact" href="contact.html">Контакты</a>
+				    </div>
 				</div>
 
 				$body$
+				
+				<div id="rightSidebar">
+				    <div id="newsBlock" class="flexyBlock">
+				        <div id="newsBlockTitleDiv" class="flexyBlockTitle">
+				            <h1>Новости</h1>
+				        </div>
+				        <p>1 июля 2016: обновлена информация о программном комитете</p>
+				    </div>
+				    
+				    <div id="logos" class="flexyBlock">
+                        <div id="logosTitleDiv" class="flexyBlockTitle">
+                            <h1>Организаторы</h1>
+                        </div>
+			            <img class="logoImg" src="images/sfedu-logo-ru.svg"/>
+		            </div>
+				</div>
+				
 			</div>
-        </td>
-        <td id="backgroundSpace2"></td>
+        </div>
+        
+        
 		
-	</tr></table>
+	</div>
     </body>
 </html>

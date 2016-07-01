@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 25px;
+    width: 100%;
 }
 
 h2 {
@@ -64,7 +65,7 @@ p, ul {
 }
 
 img {
-    margin: 12px 0px 12px 0px;
+    /*margin: 12px 0px 12px 0px;*/
     max-width: 100%;
 }
 
@@ -111,6 +112,11 @@ body {
 
 .logoImg {
 	display: block;
+}
+
+div#leftSidear {
+    background: #fff url("../images/sidebar.png") repeat-y left top;
+    background-size: 100%;
 }
 
 a {

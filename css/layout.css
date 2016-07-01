@@ -15,10 +15,15 @@ div.avatar-wrap {
     text-align: center;
 }
 
-#mainTable {
+#container {
+    align: center;
+    margin: 0 auto; 
+}
+
+/*#mainTable {
 	height: 100%;
 	width: 100%;
-}
+}*/
 
 #backgroundSpace {
 	width: 0;
@@ -30,6 +35,8 @@ div#divHead {
 	padding: 0px;
 	width: 100%;
 	display: block;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: 4px 0px 6px #999;
 }
 
 div#divHead img {
@@ -38,16 +45,21 @@ div#divHead img {
 	display: block;
 }
 
+div#leftSidear {
+    padding: 10px;
+    box-shadow: 2px 0px 3px #BBB;
+}
+
 .sidebar {
     padding-bottom: 0px;
     text-align: center;
-    float: left;
-    display: block;
-    clear: none;
+    /*float: left;*/
+    /*display: block;
+    clear: none;*/
 }
 
 div#navigation {
-    padding-bottom: 10px;
+    margin-right: 5px;
 }
 
 div#navigation a {
@@ -55,27 +67,70 @@ div#navigation a {
     width: 100%;
 }
 
-div#logos {
-	padding-top: 10px;
-	align: center;
-	clear: left;
-	float: left;
-    display: block;
-    height: 100%;
-}
-
 div#content {
-	padding: 5px;
-	padding-left: 10px;
-    clear: none;
-    float: none;
-    display: block;
+	padding: 5px 15px 5px 15px;
+	/*padding-left: 10px;*/
+    /*clear: none;*/
+    /*float: left;*/
+    /*display: block;*/
 }
 
-div#lightbox {
+div#newsBlock {
+    /*background-color: #555;*/
+    /*background: #fff url("../images/sidebar.png") repeat-y left top;
+    background-size: 100%; */
+    /*display: block;*/
+    /*float: left;*/
+}
+
+div.flexyBlock {
+    border: solid 1px #AAA;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 6px #999;
+    background: #fff url("../images/sidebar.png") repeat-y left top;
+    background-size: 100%;
+}
+
+div.flexyBlock p {
+    margin: 5px;
+}
+
+.flexyBlockTitle {
+    padding: 7px 5px 7px 5px;
+    border-radius: 15px 15px 0px 0px;
+    /*background: #fff url("../images/sidebar.png") repeat-y left top;*/
+    background-size: 100%;
+}
+
+div.flexyBlockTitle h1 {
+    width: 100%; 
+    color: white;
     margin: 0px;
-    background-color: #000;
-    height: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+div#newsBlock {
+    border-color: #09639F;
+}
+
+div#logos {
+	/*padding: 5px;*/
+	align: center;
+	border-color: #09639F;/*#052522;*/
+	/*clear: left;*/
+	/*float: left;*/
+    /*display: block;*/
+    /*height: 100%;*/
+}
+
+div#newsBlockTitleDiv {
+    background-color: #09639F;
+}
+
+div#logosTitleDiv {
+    background-color: /*#052522;*/#09639F;
 }
 
 #plcLogo {
@@ -85,44 +140,76 @@ div#lightbox {
 }
 
 #plc {
-	display: none;
+	display: block;
 }
 
 .logoImg {
 	display: block;
 	width: 110px;
-	margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
+    margin: 7px auto 7px auto;
+}
+
+div#lightbox {
+    margin: 0px;
+    background-color: #000;
+    height: 100%;
 }
 
 
-@media all and (max-width:440px){
+@media all and (max-width:439px){
 
-	.sidebar {
+	/*.sidebar {
 		background: #f3f3f3 url("../images/header.png") repeat-y left top;
 		width: calc(100%-10px);
 		clear: both;
 		padding: 5px;
+	}*/
+	
+	div#divHead {
+	    box-shadow: none;
+	    border-radius: 0px;
 	}
 
 	#mainContent {
 	  display: flex;
 	  flex-flow: column;
 	}
+	
+	div.flexyBlock {
+	    box-shadow: none;
+	}
 
-	#navigation {
+	div#leftSidear {
 		order: 1;
+		display: block;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		box-shadow: none;
 	}
-	#logos {
-		order: 3;
+	
+	div#navigation {
+	    padding: 0px;
 	}
+	
 	div#content{
 		order: 2;
 		padding: 5px;
-		width: calc(100% - 10px);
+		width: 100%;
 		margin: 0px;
 		clear: both;
+		display: block;
+		width: 100%;
+	}
+	
+	div#rightSidebar {
+	    order: 3;
+	    display: block;
+		width: 100%;
+	}
+	
+	div#logos {
+		margin: 0px;
 	}
 
 	#plc {
@@ -134,32 +221,87 @@ div#lightbox {
 
 }
 
-@media all and (min-width:440px) {
-	html {
-        background: #fff url("../images/sidebar.png") repeat-y left top;
-        background-size: 155px;
+@media all and (min-width:440px) and (max-width: 1199px) {
+	#mainContent {
+        /*background-size: 155px;
+        overflow: hidden;*/
+    }
+    
+    div#divHead {
+		width: 100%;
+	}
+    
+    div#leftSidear {
+        display: table-cell;
+        box-shadow: 0px 4px 6px #999;
+    }
+    
+    div#navigation {
+        margin: 0px;
     }
 
     .sidebar {
-		padding: 5px 5px 5px 13px;
-		width: 135px;
+		/*padding: 5px 5px 5px 13px;*/
+		/*margin: 0px;
+		background-size: 100%;
+		width: 135px;*/
 	}
-
-	div#content {
-		margin: 0px;
-		margin-left: calc(135px + 20px);
+	
+	.sidebar {
+		width: 150px;
+	}
+    
+    div#content {
+        display: table-cell;
+        width: 100%;
+        box-shadow: 0px 4px 6px #999;
     }
+    
+    div#rightSidebar {
+        display: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    div#newsBlock {
+        float: left;
+        width: calc(60% - 15px);
+        margin-right: 10px;
+    }
+    
+    div#logos {
+        float: right;
+        width: 40%;    
+    }
+   
 }
 
 
-@media all and (min-width: 880px) {
-    html {
-        background-size: 180px;
+@media all and (min-width: 1200px) {
+    #container {
+        width: 1200px;
     }
-
+    
+    #central {
+        float: left;
+    }
+    
     div.avatar-wrap {
         margin: 18px;
         float: right;
+    }
+    
+    div#divHead {
+		width: 1176px;
+	}
+    
+    div#leftSidear {
+        display: table-cell;
+    }
+    
+    #mainContent {
+        height: 100%;
+        /*background-size: 180px;*/
     }
 
 	#backgroundSpace1 {
@@ -170,21 +312,18 @@ div#lightbox {
 		width: 50%;
 	}
 
-	div#divHead {
-		width: 880px;
-	}
-
 	.sidebar {
-		width: 150px;
+		width: 170px;
 	}
 
     div#navigation {
-        float: left;
-        left: 0px;
+        /*float: left;
+        left: 0px;*/
+        
     }
 
     div#navigation h1#plc {
-		display: none;
+		display: block;
 	}
 
     div#navigation h1, div#navigation a {
@@ -199,8 +338,25 @@ div#lightbox {
     }
 
     div#content {
-        margin-left: calc(180px + 5px);
-        width: 648px;
+        display: table-cell;
+        /*margin-left: calc(180px + 5px);*/
+        margin-left: 15px;
+        width: 650px;
+    }
+    
+    div#rightSidebar {
+        display: table-cell;
+    }
+    
+    div#newsBlock {
+        width: 300px;
+    }
+    
+    div#logos {
+        /*margin: 10px;*/
+        float: right;
+        width: 300px;
+        margin: 0px;
     }
 
     div#lightbox {
