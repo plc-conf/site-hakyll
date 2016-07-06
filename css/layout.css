@@ -143,9 +143,7 @@ div#lightbox {
     height: 100%;
 }
 
-
 @media all and (max-width:439px){
-
 	/*.sidebar {
 		background: #f3f3f3 url("../images/header.png") repeat-y left top;
 		width: calc(100%-10px);
