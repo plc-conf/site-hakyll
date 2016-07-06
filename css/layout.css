@@ -20,11 +20,6 @@ div.avatar-wrap {
     margin: 0 auto; 
 }
 
-/*#mainTable {
-	height: 100%;
-	width: 100%;
-}*/
-
 #backgroundSpace {
 	width: 0;
 }
@@ -53,9 +48,6 @@ div#leftSidear {
 .sidebar {
     padding-bottom: 0px;
     text-align: center;
-    /*float: left;*/
-    /*display: block;
-    clear: none;*/
 }
 
 div#navigation {
@@ -69,18 +61,12 @@ div#navigation a {
 
 div#content {
 	padding: 5px 15px 5px 15px;
-	/*padding-left: 10px;*/
-    /*clear: none;*/
-    /*float: left;*/
-    /*display: block;*/
 }
 
 div#newsBlock {
     /*background-color: #555;*/
     /*background: #fff url("../images/sidebar.png") repeat-y left top;
     background-size: 100%; */
-    /*display: block;*/
-    /*float: left;*/
 }
 
 div.flexyBlock {
@@ -98,7 +84,7 @@ div.flexyBlock p {
 }
 
 .flexyBlockTitle {
-    padding: 7px 5px 7px 5px;
+    padding: 5px 5px 5px 5px;
     border-radius: 15px 15px 0px 0px;
     /*background: #fff url("../images/sidebar.png") repeat-y left top;*/
     background-size: 100%;
@@ -121,9 +107,6 @@ div#logos {
 	align: center;
 	/*border-color: #333#09639F;#052522;*/
 	/*clear: left;*/
-	/*float: left;*/
-    /*display: block;*/
-    /*height: 100%;*/
 }
 
 div#newsBlockTitleDiv {

@@ -116,8 +116,11 @@ body {
 
 div#leftSidear {
     background: #fff url("../images/sidebar-d-s.png") repeat-y left top;
-    /*background-color: blue;*/
     background-size: 100%;
+}
+
+div.flexyBlock p {
+    font-size: 14px;
 }
 
 a {
