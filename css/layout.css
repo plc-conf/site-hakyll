@@ -361,6 +361,7 @@ div#lightbox {
     
     div#newsBlock {
         width: 250px;
+        line-height: 18px;
     }
     
     div#logos {
