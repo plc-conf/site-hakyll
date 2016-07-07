@@ -50,6 +50,15 @@ div#leftSidear {
     text-align: center;
 }
 
+#plc {
+	display: none;
+}
+#plcLogo {
+	display: block;
+	margin-bottom: 7px;
+	/*border-radius: 15px;*/
+}
+
 div#navigation {
     margin-right: 5px;
 }
@@ -61,6 +70,7 @@ div#navigation a {
 
 div#content {
 	padding: 5px 15px 5px 15px;
+	vertical-align: top;
 }
 
 div#newsBlock {
@@ -98,6 +108,10 @@ div.flexyBlockTitle h2 {
     text-align: center;
 }
 
+div#rightSidebar {
+	padding-top: 10px;
+}
+
 div#newsBlock {
     /*border-color: #09639F;*/
 }
@@ -119,16 +133,6 @@ div#logosTitleDiv {
     /*background-color: /*#052522;#09639F;*/
     background: #fff url("../images/sidebar.png") repeat-y left top;
     background-size: 100%;
-}
-
-#plcLogo {
-	margin-top: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#plc {
-	display: block;
 }
 
 .logoImg {
@@ -236,7 +240,14 @@ div#lightbox {
 	.sidebar {
 		width: 150px;
 	}
-    
+	
+	#plc {
+		display: none;
+	}
+	#plcLogo {
+		padding: 2px 2px 0px 2px;
+	}
+		
     div#content {
         display: table-cell;
         width: 100%;
@@ -247,6 +258,7 @@ div#lightbox {
         display: column;
         width: 100%;
         margin-top: 10px;
+        padding-top: 0px;
     }
     
     div#newsBlock {
@@ -301,18 +313,28 @@ div#lightbox {
 	.sidebar {
 		width: 170px;
 	}
+	
+	#plc {
+		display: none;
+	}
+	
+	#plcLogo {
+		/*padding-left: 5px; 
+		display: inline-block;*/
+		padding: 2px 4px 0px 4px;
+		display: block;
+	}
 
     div#navigation {
         /*float: left;
         left: 0px;*/
-        
     }
 
-    div#navigation h1#plc {
-		display: block;
-	}
-
-    div#navigation h1, div#navigation a {
+	div#navigation h1 {
+        text-align: right;
+    }
+    
+    div#navigation a {
         display: block;
         text-align: right;
     }
@@ -328,10 +350,13 @@ div#lightbox {
         /*margin-left: calc(180px + 5px);*/
         margin-left: 15px;
         width: 650px;
+        vertical-align: top;
     }
     
     div#rightSidebar {
         display: table-cell;
+        vertical-align: top;
+        
     }
     
     div#newsBlock {
