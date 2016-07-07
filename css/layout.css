@@ -349,7 +349,7 @@ div#lightbox {
         display: table-cell;
         /*margin-left: calc(180px + 5px);*/
         margin-left: 15px;
-        width: 650px;
+        width: 700px;
         vertical-align: top;
     }
     
@@ -360,13 +360,13 @@ div#lightbox {
     }
     
     div#newsBlock {
-        width: 300px;
+        width: 250px;
     }
     
     div#logos {
         /*margin: 10px;*/
         float: right;
-        width: 300px;
+        width: 250px;
         margin: 0px;
     }
 
