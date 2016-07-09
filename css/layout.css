@@ -212,6 +212,10 @@ div#lightbox {
     h1, h2, h3, h4 {
         text-align: center;
     }
+    
+    h1#confTitle {
+        display: none;
+    }
 }
 
 @media all and (min-width:440px) and (max-width: 1199px) {
