@@ -55,11 +55,6 @@ div#divHead h3 {
 	text-align: center;
 }
 
-h1#plc {
-    /*font-family: Source Serif Pro, serif;*/
-    font-weight: bold;
-}
-
 p, ul {
     margin: 18px 0px 18px 0px;
 }
@@ -136,6 +131,7 @@ a:hover {
 }
 
 div#navigation a {
+    color: #333;
     border: none;
 }
 

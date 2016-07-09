@@ -34,7 +34,7 @@ div#divHead {
 	box-shadow: 4px 0px 6px #999;
 }
 
-div#divHead img {
+div#divHead img#panorama {
 	margin: 0px;
 	padding: 0px;
 	display: block;
@@ -159,7 +159,16 @@ div#lightbox {
 	    box-shadow: none;
 	    border-radius: 0px;
 	}
-
+	
+	#inlineLogoPlaceholder {
+	    display:none;
+	}
+	
+	#plcLogoInline {
+	    display: inline;
+	    height: 20px;
+    }
+    
 	#mainContent {
 	  display: flex;
 	  flex-flow: column;
@@ -179,7 +188,7 @@ div#lightbox {
 	}
 	
 	div#navigation {
-	    padding: 0px;
+	    padding: 3px;
 	}
 	
 	div#content{
@@ -202,9 +211,6 @@ div#lightbox {
 		margin: 0px;
 	}
 
-	#plc {
-		display: block;
-	}
 	#plcLogo {
 		display: none;
 	}
@@ -212,10 +218,6 @@ div#lightbox {
 }
 
 @media all and (min-width:440px) and (max-width: 1199px) {
-	#mainContent {
-        /*background-size: 155px;
-        overflow: hidden;*/
-    }
     
     div#divHead {
 		width: 100%;
@@ -241,13 +243,14 @@ div#lightbox {
 		width: 150px;
 	}
 	
-	#plc {
-		display: none;
-	}
 	#plcLogo {
 		padding: 2px 2px 0px 2px;
 	}
 		
+    #plcLogoInline {
+        display: none; 
+    }
+    
     div#content {
         display: table-cell;
         width: 100%;
@@ -324,10 +327,8 @@ div#lightbox {
 		padding: 2px 4px 0px 4px;
 		display: block;
 	}
-
-    div#navigation {
-        /*float: left;
-        left: 0px;*/
+    #plcLogoInline {
+        display: none; 
     }
 
 	div#navigation h1 {
@@ -340,7 +341,6 @@ div#lightbox {
     }
 
     div#navigation a {
-        color: #333;
         margin: 0px 0px 0px 0px;
         border-bottom: 1px solid #214161;
     }
