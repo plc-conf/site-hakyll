@@ -24,7 +24,8 @@ main = do
     hakyllWith config $ do
         -- Static files
         match  ("images/*.jpg" .||. "images/*.png" .||. 
-                "images/*.gif" .||. "images/*.svg" .||.
+                "images/sfedu-logo-ru.svg" .||.
+                "images/logo-MM.svg" .||.
                 "favicon.ico"  .||. "files/**"     .||. ".a") $ do
             route   idRoute
             compile copyFileCompiler
@@ -79,6 +80,4 @@ config = defaultConfiguration
     { deployCommand = "rsync --checksum -ave 'ssh' \
                       \_site/* plc@test.edu.mmcs.sfedu.ru:/http/plc/data/"
     }
-
-
 
