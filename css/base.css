@@ -22,37 +22,37 @@ h3 {
 }
 
 h1 {
-	margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 h4, h5 {
-	font-weight: normal;
+    font-weight: normal;
 }
 
 h3, h4 {
-	padding: 4px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
 }
 
 div#divHead {
-	background: #052522;
-	color: white;
-	vertical-align: middle;
+    background: #052522;
+    color: white;
+    vertical-align: middle;
 }
 
 div#divHead h1 {
-	font-weight: normal;
-	text-align: center;
-	color: white;
-	padding: 0px;
-	padding-top: 8px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    padding-top: 8px;
 }
 
 div#divHead h3 {
-	padding: 0px;
-	padding-bottom: 3px;
-	font-weight: normal;
-	font-size: 20px;
-	text-align: center;
+    padding: 0px;
+    padding-bottom: 3px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
 }
 
 p, ul {
@@ -73,17 +73,17 @@ div#footer {
 }
 
 #mainTable tr {
-	vertical-align: top;
+    vertical-align: top;
 }
 
 #backgroundSpace1  {
-	background: linear-gradient(to left, #C3C3C3, #fff);
-	border-right: solid 1px #C3C3C3;
+    background: linear-gradient(to left, #C3C3C3, #fff);
+    border-right: solid 1px #C3C3C3;
 }
 
 #backgroundSpace2  {
-	background: linear-gradient(to right, #C3C3C3, #fff);
-	border-left: solid 1px #C3C3C3;
+    background: linear-gradient(to right, #C3C3C3, #fff);
+    border-left: solid 1px #C3C3C3;
 }
 
 html {
@@ -98,7 +98,7 @@ body {
 }
 
 .logoImg {
-	display: block;
+    display: block;
 }
 
 div#leftSidear {
@@ -107,8 +107,8 @@ div#leftSidear {
 }
 
 #plcLogo {
-	background-color: #052522;
-	width: 100%;
+    background-color: #052522;
+    width: 100%;
 }
 
 div.flexyBlock p {
