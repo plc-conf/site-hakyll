@@ -11,6 +11,7 @@ h1, h2, h3 {
 h1 {
     font-size: 25px;
     width: 100%;
+    margin-bottom: 12px;
 }
 
 h2 {
@@ -19,10 +20,6 @@ h2 {
 
 h3 {
     font-size: 20px;
-}
-
-h1 {
-    margin-bottom: 12px;
 }
 
 h4, h5 {

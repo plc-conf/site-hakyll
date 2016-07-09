@@ -148,12 +148,6 @@ div#lightbox {
 }
 
 @media all and (max-width:439px){
-    /*.sidebar {
-        background: #f3f3f3 url("../images/header.png") repeat-y left top;
-        width: calc(100%-10px);
-        clear: both;
-        padding: 5px;
-    }*/
     
     div#divHead {
         box-shadow: none;
@@ -215,6 +209,9 @@ div#lightbox {
         display: none;
     }
 
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
 }
 
 @media all and (min-width:440px) and (max-width: 1199px) {
