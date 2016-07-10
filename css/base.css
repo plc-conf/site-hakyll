@@ -98,7 +98,7 @@ body {
     display: block;
 }
 
-div#leftSidear {
+div#leftSidebar {
     background: #fff url("../images/sidebar-d-s.png") repeat-y left top;
     background-size: 100%;
 }

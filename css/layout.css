@@ -40,7 +40,7 @@ div#divHead img#panorama {
     display: block;
 }
 
-div#leftSidear {
+div#leftSidebar {
     padding: 10px;
     box-shadow: 2px 0px 3px #BBB;
 }
@@ -172,7 +172,7 @@ div#lightbox {
         box-shadow: none;
     }
 
-    div#leftSidear {
+    div#leftSidebar {
         order: 1;
         display: block;
         width: 100%;
@@ -224,7 +224,7 @@ div#lightbox {
         width: 100%;
     }
     
-    div#leftSidear {
+    div#leftSidebar {
         display: table-cell;
         box-shadow: 0px 4px 6px #999;
     }
@@ -297,7 +297,7 @@ div#lightbox {
         width: 1176px;
     }
     
-    div#leftSidear {
+    div#leftSidebar {
         display: table-cell;
     }
     
