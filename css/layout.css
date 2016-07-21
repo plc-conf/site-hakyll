@@ -53,10 +53,10 @@ div#leftSidebar {
 #plc {
     display: none;
 }
+
 #plcLogo {
     display: block;
     margin-bottom: 7px;
-    /*border-radius: 15px;*/
 }
 
 div#navigation {
@@ -73,18 +73,11 @@ div#content {
     vertical-align: top;
 }
 
-div#newsBlock {
-    /*background-color: #555;*/
-    /*background: #fff url("../images/sidebar.png") repeat-y left top;
-    background-size: 100%; */
-}
-
 div.flexyBlock {
     border: solid 1px #AAA;
     border-radius: 15px;
     margin-bottom: 10px;
     box-shadow: 4px 4px 6px #999;
-    /*background: #fff url("../images/sidebar.png") repeat-y left top;*/
     background-color: white;
     background-size: 100%;
 }
@@ -96,13 +89,12 @@ div.flexyBlock p {
 .flexyBlockTitle {
     padding: 5px 5px 5px 5px;
     border-radius: 15px 15px 0px 0px;
-    /*background: #fff url("../images/sidebar.png") repeat-y left top;*/
     background-size: 100%;
 }
 
 div.flexyBlockTitle h2 {
     width: 100%;
-    color: #333/*white*/;
+    color: #333
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -112,25 +104,16 @@ div#rightSidebar {
     padding-top: 10px;
 }
 
-div#newsBlock {
-    /*border-color: #09639F;*/
-}
-
 div#logos {
-    /*padding: 5px;*/
     align: center;
-    /*border-color: #333#09639F;#052522;*/
-    /*clear: left;*/
 }
 
 div#newsBlockTitleDiv {
-    /*background-color: #09639F;*/
     background: #fff url("../images/sidebar-d-s.png") repeat-y left top;
     background-size: 100%;
 }
 
 div#logosTitleDiv {
-    /*background-color: /*#052522;#09639F;*/
     background: #fff url("../images/sidebar-d-s.png") repeat-y left top;
     background-size: 100%;
 }
@@ -304,7 +287,6 @@ div#lightbox {
 
     #mainContent {
         height: 100%;
-        /*background-size: 180px;*/
     }
 
     #backgroundSpace1 {
@@ -324,8 +306,6 @@ div#lightbox {
     }
 
     #plcLogo {
-        /*padding-left: 5px;
-        display: inline-block;*/
         padding: 2px 4px 0px 4px;
         display: block;
     }
@@ -349,7 +329,6 @@ div#lightbox {
 
     div#content {
         display: table-cell;
-        /*margin-left: calc(180px + 5px);*/
         margin-left: 15px;
         width: 700px;
         vertical-align: top;
@@ -367,7 +346,6 @@ div#lightbox {
     }
 
     div#logos {
-        /*margin: 10px;*/
         float: right;
         width: 250px;
         margin: 0px;
