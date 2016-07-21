@@ -17,7 +17,7 @@ div.avatar-wrap {
 
 #container {
     align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 #backgroundSpace {
@@ -64,7 +64,7 @@ div#navigation {
 }
 
 div#navigation a {
-    padding: 2px 4px 2px 4px;
+    padding: 6px 4px 6px 4px;
     width: 100%;
 }
 
@@ -101,7 +101,7 @@ div.flexyBlock p {
 }
 
 div.flexyBlockTitle h2 {
-    width: 100%; 
+    width: 100%;
     color: #333/*white*/;
     margin: 0px;
     padding: 0px;
@@ -148,26 +148,26 @@ div#lightbox {
 }
 
 @media all and (max-width:439px){
-    
+
     div#divHead {
         box-shadow: none;
         border-radius: 0px;
     }
-    
+
     #inlineLogoPlaceholder {
         display:none;
     }
-    
+
     #plcLogoInline {
         display: inline;
         height: 20px;
     }
-    
+
     #mainContent {
       display: flex;
       flex-flow: column;
     }
-    
+
     div.flexyBlock {
         box-shadow: none;
     }
@@ -180,11 +180,15 @@ div#lightbox {
         padding: 0px;
         box-shadow: none;
     }
-    
+
     div#navigation {
         padding: 3px;
     }
-    
+
+    div#navigation a {
+        padding: 2px 4px 2px 4px;
+    }
+
     div#content{
         order: 2;
         padding: 5px;
@@ -194,13 +198,13 @@ div#lightbox {
         display: block;
         width: 100%;
     }
-    
+
     div#rightSidebar {
         order: 3;
         display: block;
         width: 100%;
     }
-    
+
     div#logos {
         margin: 0px;
     }
@@ -212,70 +216,67 @@ div#lightbox {
     h1, h2, h3, h4 {
         text-align: center;
     }
-    
+
     h1#confTitle {
         display: none;
     }
 }
 
 @media all and (min-width:440px) and (max-width: 1199px) {
-    
+
     div#divHead {
         width: 100%;
     }
-    
+
     div#leftSidebar {
         display: table-cell;
         box-shadow: 0px 4px 6px #999;
     }
-    
+
     div#navigation {
         margin: 0px;
     }
 
-    .sidebar {
-        /*padding: 5px 5px 5px 13px;*/
-        /*margin: 0px;
-        background-size: 100%;
-        width: 135px;*/
+    div#navigation a {
+        padding: 2px 4px 2px 4px;
     }
-    
+
     .sidebar {
         width: 150px;
     }
-    
+
     #plcLogo {
         padding: 2px 2px 0px 2px;
     }
-        
+
     #plcLogoInline {
-        display: none; 
+        display: none;
     }
-    
+
     div#content {
         display: table-cell;
         width: 100%;
         box-shadow: 0px 4px 6px #999;
     }
-    
+
     div#rightSidebar {
         display: column;
         width: 100%;
         margin-top: 10px;
         padding-top: 0px;
     }
-    
+
     div#newsBlock {
         float: left;
         width: calc(60% - 15px);
         margin-right: 10px;
     }
-    
+
     div#logos {
         float: right;
-        width: 40%;    
+        width: 40%;
     }
-   
+
 }
 
 
@@ -283,24 +284,24 @@ div#lightbox {
     #container {
         width: 1200px;
     }
-    
+
     #central {
         float: left;
     }
-    
+
     div.avatar-wrap {
         margin: 18px;
         float: right;
     }
-    
+
     div#divHead {
         width: 1176px;
     }
-    
+
     div#leftSidebar {
         display: table-cell;
     }
-    
+
     #mainContent {
         height: 100%;
         /*background-size: 180px;*/
@@ -317,25 +318,25 @@ div#lightbox {
     .sidebar {
         width: 170px;
     }
-    
+
     #plc {
         display: none;
     }
-    
+
     #plcLogo {
-        /*padding-left: 5px; 
+        /*padding-left: 5px;
         display: inline-block;*/
         padding: 2px 4px 0px 4px;
         display: block;
     }
     #plcLogoInline {
-        display: none; 
+        display: none;
     }
 
     div#navigation h1 {
         text-align: right;
     }
-    
+
     div#navigation a {
         display: block;
         text-align: right;
@@ -353,18 +354,18 @@ div#lightbox {
         width: 700px;
         vertical-align: top;
     }
-    
+
     div#rightSidebar {
         display: table-cell;
         vertical-align: top;
-        
+
     }
-    
+
     div#newsBlock {
         width: 250px;
         line-height: 18px;
     }
-    
+
     div#logos {
         /*margin: 10px;*/
         float: right;
