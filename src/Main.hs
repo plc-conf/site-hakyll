@@ -23,10 +23,13 @@ main = do
     now <- formatTime defaultTimeLocale "%F" <$> getCurrentTime
     hakyllWith config $ do
         -- Static files
-        match  ("images/*.jpg" .||. "images/*.png" .||. 
-                "images/sfedu-logo-ru.svg" .||.
-                "images/logo-MM.svg" .||.
-                "favicon.ico"  .||. "files/**"     .||. ".a") $ do
+        match  ("images/*.jpg"              .||.
+                "images/*.png"              .||.
+                "images/sfedu-logo-ru.svg"  .||.
+                "images/logo-MM.svg"        .||.
+                "favicon.ico"               .||.
+                "files/**"                  .||.
+                ".a")                       $ do
             route   idRoute
             compile copyFileCompiler
 
@@ -39,16 +42,16 @@ main = do
         match "templates/*" $ compile $ templateCompiler
 
         -- Render some static pages
-        
+
         match "contents/*.md" $ do
-            route   $ setExtension ".html" 
-                        `composeRoutes` 
+            route   $ setExtension ".html"
+                        `composeRoutes`
                             (gsubRoute "contents/" (const ""))
             compile $ pandocCompiler
-                >>= loadAndApplyTemplate 
-                        "templates/content.html" 
+                >>= loadAndApplyTemplate
+                        "templates/content.html"
                         (defaultContextWithDate now)
-                >>= loadAndApplyTemplate 
+                >>= loadAndApplyTemplate
                         "templates/default.html"
                         (field "id" itemBasename <> defaultContext)
                 >>= relativizeUrls
@@ -57,17 +60,17 @@ main = do
         match "contents/404.html" $ do
             route $ gsubRoute "contents/" (const "")
             compile $ pandocCompiler
-                >>= loadAndApplyTemplate 
-                        "templates/content.html" 
+                >>= loadAndApplyTemplate
+                        "templates/content.html"
                         (defaultContextWithDate now)
-                >>= loadAndApplyTemplate 
-                        "templates/default.html" 
+                >>= loadAndApplyTemplate
+                        "templates/default.html"
                         defaultContext
 
 --------------------------------------------------------------------------------
 
 itemBasename :: Item a -> Compiler String
-itemBasename = return . encodeString 
+itemBasename = return . encodeString
              . basename . decodeString. toFilePath . itemIdentifier
 
 defaultContextWithDate :: String -> Context String
