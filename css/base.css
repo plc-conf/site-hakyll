@@ -95,7 +95,7 @@ body {
 }
 
 .logoImg {
-    display: block;
+    width: 110px;
 }
 
 div#leftSidebar {
@@ -108,14 +108,75 @@ div#leftSidebar {
     width: 100%;
 }
 
-div.flexyBlock p {
+div.flexyBlock {
     font-size: 14px;
+    padding-bottom: 8px;
+}
+
+div.flexyBlock a {
+    color: #09639F;
+    /*border-bottom: 1px solid #214161;*/
+}
+div.flexyBlock a:hover {
+    color: #214161;
+}
+
+.flexyBlockTitle {
+	background: #fff url("../images/sidebar-d-s.png") repeat-y left top;
+    background-size: 100%;
+    padding: 7px 5px 3px 5px;
+    border-radius: 15px 15px 0px 0px;
+    background-size: 100%;
+    margin-bottom: 5px;
+}
+
+div.flexyBlockTitle h2 {
+    width: 100%;
+    color: #333
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#datesTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#datesTable a {
+    color: #333;
+}
+#datesTable a:hover[href] {
+    color: #09639F;
+}
+
+#datesTable tr  {
+	border-bottom: 1px solid #AAA;
+}
+#datesTable tr.dateOpened  {
+	background-color: #C8FEDD;
+}
+#datesTable tr.dateNonactiveYet  {
+	background-color: #DDFFEE;
+}
+#datesTable tr.dateClosed  {
+	background-color: #F79C87;
+}
+#datesTable tr:hover{
+	background-color: white;
+	/*cursor: pointer;*/
 }
 
 div#content a {
     color: #214161;
     text-decoration: none;
     border-bottom: 1px solid #214161;
+}
+
+div#content a:hover {
+    color: #09639F;
+    text-decoration: none;
+    border-bottom: 1px solid #09639F;
 }
 
 a {
