@@ -188,12 +188,12 @@ a:hover {
     border-bottom-color: #0288CD;
 }
 
-div#navigation a {
+div#navigation > a {
     color: #333;
     border: none;
 }
 
-div#navigation a:hover {
+div#navigation > a:hover {
     background-color: #0288CD;
     color: white;
 }
