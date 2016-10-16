@@ -98,6 +98,37 @@ body {
     width: 110px;
 }
 
+div#content a {
+    color: #214161;
+    text-decoration: none;
+    border-bottom: 1px solid #214161;
+}
+
+div#content a:hover {
+    color: #09639F;
+    text-decoration: none;
+    border-bottom: 1px solid #09639F;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0288CD;
+    border-bottom-color: #0288CD;
+}
+
+div#navigation > a {
+    color: #333;
+    border: none;
+}
+
+div#navigation > a:hover {
+    background-color: #0288CD;
+    color: white;
+}
+
 div#leftSidebar {
     background: #fff url("../images/sidebar-d-s.png") repeat-y left top;
     background-size: 100%;
@@ -167,35 +198,26 @@ div.flexyBlockTitle h2 {
 	/*cursor: pointer;*/
 }
 
-div#content a {
-    color: #214161;
-    text-decoration: none;
-    border-bottom: 1px solid #214161;
+div#sponsors p.sponsorKindHeader {
+	font-size: 16px;
+	margin: 0px;
+	text-align: left;
+	padding-left: 5px;
+	/*border-bottom: 1px solid #AAA;*/
 }
 
-div#content a:hover {
-    color: #09639F;
-    text-decoration: none;
-    border-bottom: 1px solid #09639F;
+div#sponsors p {
+	text-align: center;
 }
 
-a {
-    text-decoration: none;
+p#goldSponsorTitle {
+	background-color: #ffef85;
 }
-
-a:hover {
-    color: #0288CD;
-    border-bottom-color: #0288CD;
+p#silverSponsorTitle {
+	background-color: #CFCFCF;
 }
-
-div#navigation > a {
-    color: #333;
-    border: none;
-}
-
-div#navigation > a:hover {
-    background-color: #0288CD;
-    color: white;
+p#bronzeSponsorTitle {
+	background-color: #e0b081 /*#dca570*/;
 }
 
 div.figure a{

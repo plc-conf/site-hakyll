@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="115"
+   viewBox="0 0 599.99999 115.00002"
+   id="svg4273"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="pvs-studio-logo.svg"
+   inkscape:export-filename="/usr/local/linux work data/MMCS/PLC-conference/site-hakyll/images/pvs-studio-logo.png"
+   inkscape:export-xdpi="56.291893"
+   inkscape:export-ydpi="56.291893">
+  <defs
+     id="defs4275">
+    <linearGradient
+       id="linearGradient4138"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4140" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="299.8688"
+     inkscape:cy="40.821044"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1869"
+     inkscape:window-height="1056"
+     inkscape:window-x="51"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-grids="false" />
+  <metadata
+     id="metadata4278">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-937.3622)">
+    <g
+       id="g5612">
+      <rect
+         y="937.85602"
+         x="0.49372905"
+         height="114.01244"
+         width="599.01257"
+         id="rect5607"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98758018;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4171"
+         y="1031.6481"
+         x="1.74818"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:114.37501526px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:114.37501526px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="1031.6481"
+           x="1.74818"
+           id="tspan4173"
+           sodipodi:role="line">PVS-Studio</tspan></text>
+      <rect
+         y="1041.8392"
+         x="9.1198273"
+         height="3.9032481"
+         width="581.76038"
+         id="rect5600"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.68246675;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
