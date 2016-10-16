@@ -27,6 +27,7 @@ main = do
                 "images/*.png"              .||.
                 "images/sfedu-logo-ru.svg"  .||.
                 "images/logo-MM.svg"        .||.
+                "images/pvs-studio-logo.svg".||.
                 "favicon.ico"               .||.
                 "files/**"                  .||.
                 ".a")                       $ do
