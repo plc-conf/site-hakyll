@@ -141,7 +141,7 @@ div#leftSidebar {
 
 div.flexyBlock {
     font-size: 14px;
-    padding-bottom: 8px;
+    overflow-y: hidden;
 }
 
 div.flexyBlock a {
