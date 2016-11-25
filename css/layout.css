@@ -109,7 +109,7 @@ div#lightbox {
     height: 100%;
 }
 
-@media all and (max-width:439px){
+@media all and (max-width:439px) {
 
     div#divHead {
         box-shadow: none;
@@ -130,8 +130,14 @@ div#lightbox {
       flex-flow: column;
     }
 
-    div.flexyBlock {
+    .flexyBlock {
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
+    }
+
+    .flexyBlockTitle {
+        border-radius: 0;
     }
 
     div#leftSidebar {
