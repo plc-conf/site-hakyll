@@ -109,7 +109,7 @@ div#lightbox {
     height: 100%;
 }
 
-@media all and (max-width:439px){
+@media all and (max-width:439px) {
 
     div#divHead {
         box-shadow: none;
@@ -130,8 +130,14 @@ div#lightbox {
       flex-flow: column;
     }
 
-    div.flexyBlock {
+    .flexyBlock {
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
+    }
+
+    .flexyBlockTitle {
+        border-radius: 0;
     }
 
     div#leftSidebar {
@@ -154,11 +160,9 @@ div#lightbox {
     div#content{
         order: 2;
         padding: 5px;
-        width: 100%;
         margin: 0px;
         clear: both;
         display: block;
-        width: 100%;
     }
 
     div#rightSidebar {
@@ -233,7 +237,7 @@ div#lightbox {
         width: calc(55% - 15px);
         margin-right: 10px;
     }
-    
+
     div#datesBlock {
         float: right;
         width: 45%;
@@ -249,7 +253,7 @@ div#lightbox {
         width: 100%;
         text-align: center;
     }
-    
+
     .logoImg {
 		display: inline;
 		margin: 7px;
