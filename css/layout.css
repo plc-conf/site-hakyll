@@ -90,6 +90,10 @@ div.flexyBlock p {
 	padding: 2px 5px 2px 5px;
 }
 
+#datesTable td:nth-child(even) {
+    white-space: nowrap;
+}
+
 div#rightSidebar {
     padding-top: 10px;
 }
