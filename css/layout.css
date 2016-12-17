@@ -90,6 +90,10 @@ div.flexyBlock p {
 	padding: 2px 5px 2px 5px;
 }
 
+#datesTable td:nth-child(even) {
+    white-space: nowrap;
+}
+
 div#rightSidebar {
     padding-top: 10px;
 }
@@ -197,6 +201,7 @@ div#lightbox {
 
     div#navigation a {
         padding: 2px 4px 2px 4px;
+        display: block;
     }
 
     .sidebar {
