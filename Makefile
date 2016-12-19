@@ -1,3 +1,5 @@
+all: build deploy
+
 build: hbuild sbuild
 
 hbuild: dist/build/site/site
@@ -6,15 +8,15 @@ dist/build/site/site: src/Main.hs
 	cabal build
 
 sbuild:
-	dist/build/site/site build
+	cabal run build
 
 clean: sclean hclean
 
 sclean:
-	dist/build/site/site clean
+	cabal run clean
 
 deploy: build
-	dist/build/site/site deploy
+	cabal run deploy
 
 hclean:
 	cabal clean
