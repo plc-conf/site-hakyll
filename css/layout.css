@@ -98,9 +98,24 @@ div#rightSidebar {
     padding-top: 10px;
 }
 
-.logoImg {
-    display: block;
-    margin: 7px auto 7px auto;
+div#logos {
+	text-align: center;
+}
+div#logos .logoImg {
+	display: inline;
+	margin: 7px;
+	height: 110px;
+}
+
+div#logos #mmcsLogo {
+	width: 125px;
+}
+div#logos #sfeduLogo {
+	width: 100px;
+}
+
+div#logos a {
+	display: inline;
 }
 
 div#lightbox {
@@ -182,6 +197,11 @@ div#lightbox {
     h1#confTitle {
         display: none;
     }
+    
+    .logoImg {
+		display: block;
+		margin: 7px auto 7px auto;
+	}
 }
 
 @media all and (min-width:440px) and (max-width: 1219px) {
@@ -229,33 +249,25 @@ div#lightbox {
         padding-top: 0px;
     }
 
+	div .flexyBlock {
+		float: left;
+        width: 100%;
+        text-align: center;
+	}
+
     div#newsBlock {
         float: left;
         width: calc(55% - 15px);
         margin-right: 10px;
+        text-align: left;
     }
 
     div#datesBlock {
         float: right;
         width: 45%;
+        text-align: left;
     }
 
-    div#logos {
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
-    div#sponsors {
-		float: left;
-        width: 100%;
-        text-align: center;
-    }
-
-    .logoImg {
-		display: inline;
-		margin: 7px;
-		height: 110px;
-	}
 	div#sponsors .logoImg {
 		height: 100%;
 	}
@@ -353,4 +365,5 @@ div#lightbox {
     div#lightbox {
         margin: 0px 0px 0px 155px;
     }
+    
 }
