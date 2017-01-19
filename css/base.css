@@ -220,6 +220,15 @@ p#bronzeSponsorTitle {
 	background-color: #e0b081 /*#dca570*/;
 }
 
+div#partnersBlock p {
+	border-bottom: 1px solid #AAA;
+	padding-bottom: 2px;
+}
+
+div#partnersBlock p#lastPartner {
+	border-bottom: none;
+}
+
 div#partnersBlock h4 {
 	font-size: 17.5px;
 	margin: 0px;
