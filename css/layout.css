@@ -118,6 +118,15 @@ div#logos a {
 	display: inline;
 }
 
+div#partnersBlock{
+	text-align: center;
+	line-height: 18px;
+}
+div#partnersBlock .logoImg {
+	display: block;
+	margin: 1px auto 1px auto;
+}
+
 div#lightbox {
     margin: 0px;
     background-color: #000;
@@ -202,6 +211,7 @@ div#lightbox {
 		display: block;
 		margin: 7px auto 7px auto;
 	}
+
 }
 
 @media all and (min-width:440px) and (max-width: 1219px) {

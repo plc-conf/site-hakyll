@@ -28,6 +28,9 @@ main = do
                 "images/sfedu-logo-ru.svg"  .||.
                 "images/logo-MM.svg"        .||.
                 "images/pvs-studio-logo.svg".||.
+                "images/logo-jetbrains.svg" .||.
+                "images/logo-aeroflot.svg"  .||.
+                "images/logo-fpconf.svg"    .||.
                 "favicon.ico"               .||.
                 "files/**"                  .||.
                 ".a")                       $ do

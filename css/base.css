@@ -220,6 +220,16 @@ p#bronzeSponsorTitle {
 	background-color: #e0b081 /*#dca570*/;
 }
 
+div#partnersBlock h4 {
+	font-size: 17.5px;
+	margin: 0px;
+	text-align: center;
+	padding-left: 2px;
+	background-color: #DFDFDF;
+	line-height: 26px;
+	font-family: PT Sans Caption, sans-serif;
+}
+
 div.figure a{
     border: none;
 }
