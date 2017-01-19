@@ -211,6 +211,10 @@ div#lightbox {
 		display: block;
 		margin: 7px auto 7px auto;
 	}
+	
+	div#partnersBlock h4 {
+		background-color: #DFDFDF;
+	}
 
 }
 
@@ -288,6 +292,10 @@ div#lightbox {
     div#sponsors a {
         display: inline;
     }
+    
+    div#partnersBlock h4 {
+		background-color: #DFDFDF;
+	}
 }
 
 
