@@ -8,11 +8,9 @@ title: Конференция
 
 #### 3–5 апреля 2017г., Ростов-на-Дону, Россия 
 
-**[>>> Научная программа конференции](https://docs.google.com/spreadsheets/d/11QiFUqJG_NiBHVUfji_6-FiqP3aQWmdDBN13abM32nY/edit?usp=sharing)**
+* [>>> Научная программа конференции](https://docs.google.com/spreadsheets/d/11QiFUqJG_NiBHVUfji_6-FiqP3aQWmdDBN13abM32nY/edit?usp=sharing)
 
-**Вай-фай на конференции:** имя точки доступа conf, пароль confconf.
-
-**Хэш-тег конференции:** #PLC2017.
+* Слайды докладов: [первого дня](files/slides/day-1/), [второго и третьего дня](files/slides/days-2-3/).
 
 Конференция «Языки программирования и компиляторы»
 представляет новую площадку для докладов и обсуждения 

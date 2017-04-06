@@ -4,6 +4,8 @@ title: Новости
 
 # Новости
 
+06.04.2017: Опубликованы <a href="files/slides">слайды к докладам</a> сделанным на конференции.
+
 29.03.2017: Опубликована <a href="https://docs.google.com/spreadsheets/d/11QiFUqJG_NiBHVUfji_6-FiqP3aQWmdDBN13abM32nY/edit?usp=sharing">научная программа конференции</a>.
 
 30.01.2017: Срок подачи работ продлён до 8 февраля.
