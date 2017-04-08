@@ -8,9 +8,7 @@ title: Конференция
 
 #### 3–5 апреля 2017г., Ростов-на-Дону, Россия 
 
-* [Научная программа конференции](https://docs.google.com/spreadsheets/d/11QiFUqJG_NiBHVUfji_6-FiqP3aQWmdDBN13abM32nY/edit?usp=sharing)
-
-* Слайды докладов: [первого дня](files/slides/day-1/), [второго и третьего дня](files/slides/days-2-3/).
+* [Научная программа конференции](https://docs.google.com/spreadsheets/d/11QiFUqJG_NiBHVUfji_6-FiqP3aQWmdDBN13abM32nY/edit?usp=sharing) со ссылками на слайды к докладам.
 
 * [Фотоальбом](https://www.facebook.com/pg/plc2017/photos/?tab=album&album_id=597131490479961) и [Телеграм-канал](https://t.me/plc2017) конференции.
 
