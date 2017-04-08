@@ -4,6 +4,8 @@ title: Новости
 
 # Новости
 
+08.04.2017: Опубликован <a href="https://www.facebook.com/pg/plc2017/photos/?tab=album&album_id=597131490479961">фотоальбом</a> конференции.
+
 06.04.2017: Опубликованы <a href="files/slides">слайды к докладам</a> сделанным на конференции.
 
 29.03.2017: Опубликована <a href="https://docs.google.com/spreadsheets/d/11QiFUqJG_NiBHVUfji_6-FiqP3aQWmdDBN13abM32nY/edit?usp=sharing">научная программа конференции</a>.
